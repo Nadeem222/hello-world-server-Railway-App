@@ -33,7 +33,7 @@
 
             let todoText = document.querySelector("#todo").value;
 
-            axios.post(`https://slippers-eagle.cyclic.app/todo`,{
+            axios.post(`https://gray-happy-goat.cyclic.app/`,{
                 text: todoText
             })
 
@@ -61,7 +61,7 @@
         
 
            function getAllTodos(){
-            axios.get (`https://slippers-eagle.cyclic.app/todo`)
+            axios.get (`https://gray-happy-goat.cyclic.app/todo`)
             .then(function (response) {
                 // handle success
                 console.log(response.data);
